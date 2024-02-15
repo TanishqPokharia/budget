@@ -48,7 +48,7 @@ class ExpenseItem extends StatelessWidget {
                   Icon(icon, color: expense.color),
                   Text(
                     expense.title,
-                    style: TextStyle(fontSize: Responsive.size(context, 18)),
+                    style: TextStyle(fontSize: Responsive.size(context, 18),color: expense.color),
                   )
                 ],
               ),

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "363283655628",
+    "firebase_url": "https://finbot-6fc9b-default-rtdb.firebaseio.com",
+    "project_id": "finbot-6fc9b",
+    "storage_bucket": "finbot-6fc9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363283655628:android:4d906b786c06fc2da38b69",
+        "android_client_info": {
+          "package_name": "com.example.budget_buddy_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe84Nza_v5vlN5tMKBw2GaZVD19yfgAhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAynys7qmweJk62UvevMXy0hmdbAKcsCs0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>363283655628</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.budgetBuddy2</string>
+	<key>PROJECT_ID</key>
+	<string>finbot-6fc9b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>finbot-6fc9b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:363283655628:ios:1f4ca571e52a9f36a38b69</string>
+	<key>DATABASE_URL</key>
+	<string>https://finbot-6fc9b-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

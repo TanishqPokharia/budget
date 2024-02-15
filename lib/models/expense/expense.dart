@@ -7,7 +7,6 @@ class Expense {
   final String category;
   final String date;
   final String month;
-  final String time;
   Color get color {
     switch (category) {
       case "food":
@@ -40,7 +39,7 @@ class Expense {
       required this.category,
       required this.date,
       required this.month,
-      required this.time});
+      });
 }
 
 List<Expense> expenseList = [
@@ -52,7 +51,6 @@ List<Expense> expenseList = [
     category: "food",
     date: "10/02/2024",
     month: "February,2024",
-    time: "13:45:12",
   ),
   // Leisure expense
   Expense(
@@ -62,7 +60,6 @@ List<Expense> expenseList = [
     category: "leisure",
     date: "15/02/2024",
     month: "February,2024",
-    time: "19:00:00",
   ),
   // Maintenance expense
   Expense(
@@ -72,7 +69,6 @@ List<Expense> expenseList = [
     category: "maintainence",
     date: "02/02/2024",
     month: "February,2024",
-    time: "10:00:00",
   ),
   // Medicine expense
   Expense(
@@ -82,7 +78,6 @@ List<Expense> expenseList = [
     category: "medicine",
     date: "08/02/2024",
     month: "February,2024",
-    time: "11:30:00",
   ),
   // Recharge expense
   Expense(
@@ -92,7 +87,6 @@ List<Expense> expenseList = [
     category: "recharge",
     date: "13/02/2024",
     month: "February,2024",
-    time: "16:00:00",
   ),
   // Rent expense
   Expense(
@@ -102,7 +96,6 @@ List<Expense> expenseList = [
     category: "rent",
     date: "01/02/2024",
     month: "February,2024",
-    time: "00:00:00",
   ),
   // Shopping expense
   Expense(
@@ -112,7 +105,6 @@ List<Expense> expenseList = [
     category: "shopping",
     date: "05/02/2024",
     month: "February,2024",
-    time: "14:15:00",
   ),
   // Stationary expense
   Expense(
@@ -122,7 +114,6 @@ List<Expense> expenseList = [
     category: "stationary",
     date: "07/02/2024",
     month: "February,2024",
-    time: "12:00:00",
   ),
   // Travel expense
   Expense(
@@ -132,7 +123,6 @@ List<Expense> expenseList = [
     category: "travel",
     date: "12/02/2024",
     month: "February,2024",
-    time: "08:30:00",
   ),
   // Other expense
   Expense(
@@ -142,6 +132,5 @@ List<Expense> expenseList = [
     category: "other",
     date: "14/02/2024",
     month: "February,2024",
-    time: "10:30:00",
   ),
 ];
